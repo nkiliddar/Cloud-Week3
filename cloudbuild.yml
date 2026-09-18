@@ -1,7 +1,7 @@
 - name: 'gcr.io/cloud-builders/gke-deploy'
   args:
   - 'run'
-  - '--image=gcr.io/neon-airway-224101/://github.com'
+  - '--image=gcr.io/neon-airway-224101/://github.com/nkiliddar/Cloud-Week3'
   - '--filename=./deployment-1.yaml'
   - '--location=us-central1'
   - '--cluster=gke-deployment-cluster'
