@@ -1,0 +1,8 @@
+- name: 'gcr.io/cloud-builders/gke-deploy'
+  args:
+  - 'run'
+  - '--image=gcr.io/$neon-airway-224101/sample1:$COMMIT_SHA'
+  - '--configs=Cloud-Week3/' # <--- Change this to your actual directory or file path
+  - '--location=us-central1'
+  - '--cluster=gke-deployment-cluster'
+
