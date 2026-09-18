@@ -2,6 +2,6 @@
   args:
   - 'run'
   - '--image=gcr.io/neon-airway-224101/github.com/nkiliddar/cloud-week3:34b2b360b581890840a2c6fec2f882e624f3b48f'
-  - '--configs=./deployment-1.yaml' # <--- Update this line to target your file directly
+  - '--configs=./deployment-1.yaml'
   - '--location=us-central1'
   - '--cluster=gke-deployment-cluster'
